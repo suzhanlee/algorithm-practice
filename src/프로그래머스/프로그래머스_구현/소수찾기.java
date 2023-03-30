@@ -69,11 +69,11 @@ public class 소수찾기 {
 
 //            if(visited[L] == 0) {
 //                visited[L] = 1;
-                dfs(L + 1, str + number.charAt(L));
+            dfs(L + 1, str + number.charAt(L));
 //                visited[L = 0;]
 //            }
 //            if(visited[L] == 0) {
-                dfs(L + 1, str);
+            dfs(L + 1, str);
 //            }
         }
 

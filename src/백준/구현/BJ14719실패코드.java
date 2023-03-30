@@ -38,7 +38,7 @@ public class BJ14719실패코드 {
                         if (board[idx] < board[idx - 1]) {
                             idx--;
                         } else {
-                            answer += explore(Math.min(board[idx],board[tmp]), idx, tmp);
+                            answer += explore(Math.min(board[idx], board[tmp]), idx, tmp);
                             break;
                         }
                     }
@@ -46,7 +46,7 @@ public class BJ14719실패코드 {
                     tmp = idx;
 
                 } else {
-                    answer += explore(Math.min(board[idx],board[tmp]), idx, tmp);
+                    answer += explore(Math.min(board[idx], board[tmp]), idx, tmp);
                     tmp = idx;
                 }
 
@@ -88,7 +88,7 @@ public class BJ14719실패코드 {
 
             board[i] = x;
 
-            for (int k = x; k >=1; k--) {
+            for (int k = x; k >= 1; k--) {
 
                 graph[k][i] = 1;
 

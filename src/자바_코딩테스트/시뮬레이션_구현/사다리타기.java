@@ -28,12 +28,12 @@ class 사다리타기 {
 
             for (int j = 0; j < ladder[i].length; j++) {
                 int x = ladder[i][j];
-                if(num == x) {
+                if (num == x) {
                     num++;
                     break;
                 }
 
-                if(num == x + 1) {
+                if (num == x + 1) {
                     num--;
                     break;
 

@@ -22,7 +22,7 @@ public class 같은_숫자는_싫어 {
 
             Integer poll = queue.poll();
 
-            if(value != poll) {
+            if (value != poll) {
                 answers.add(poll);
                 value = poll;
             }
@@ -36,8 +36,6 @@ public class 같은_숫자는_싫어 {
             answer[i] = answers.get(i);
 
         }
-
-
 
         return answer;
 

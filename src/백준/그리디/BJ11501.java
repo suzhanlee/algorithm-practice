@@ -30,8 +30,8 @@ public class BJ11501 {
                 arr[j] = Integer.parseInt(st.nextToken());
             }
 
-            for (int j = N-1; j >= 0; j--) {
-                if(arr[j] > max) {
+            for (int j = N - 1; j >= 0; j--) {
+                if (arr[j] > max) {
                     max = arr[j];
                 } else {
                     answer += (max - arr[j]);

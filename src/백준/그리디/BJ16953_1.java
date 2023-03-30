@@ -14,18 +14,18 @@ public class BJ16953_1 {
 
     public static void dfs(int L, long num) {
 
-        if(num > B) {
+        if (num > B) {
             return;
         }
 
-        if(num == B) {
+        if (num == B) {
 
             answer = Math.min(answer, L);
 
         } else {
 
-            dfs(L+1, num * 2);
-            dfs(L+1,num*10 + 1);
+            dfs(L + 1, num * 2);
+            dfs(L + 1, num * 10 + 1);
 
         }
 
@@ -42,16 +42,13 @@ public class BJ16953_1 {
 
 //        visited = new int[Integer.MAX_VALUE];
 
+        dfs(0, A);
 
-        dfs(0,A);
-
-        if(answer != Long.MAX_VALUE) {
+        if (answer != Long.MAX_VALUE) {
             System.out.println(answer + 1);
         } else {
             System.out.println(-1);
         }
-
-
 
 
     }

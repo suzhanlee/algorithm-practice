@@ -14,7 +14,7 @@ public class BJ1010_1 {
 
     public static int solution(int N, int M) {
 
-        if(dp[N][M] > 0) {
+        if (dp[N][M] > 0) {
             return dp[N][M];
         }
 

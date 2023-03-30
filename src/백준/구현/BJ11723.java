@@ -22,8 +22,6 @@ public class BJ11723 {
         }
 
 
-
-
     }
 
 }

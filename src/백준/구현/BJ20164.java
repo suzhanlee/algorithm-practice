@@ -17,7 +17,7 @@ public class BJ20164 {
 
         int x = num % 10 + num / 10;
 
-        if(x % 2 == 1) {
+        if (x % 2 == 1) {
             tmp++;
         }
 
@@ -67,7 +67,7 @@ public class BJ20164 {
                 + Integer.parseInt(N.substring(nums[1]));
 
             if (x >= 100) {
-                combi(0,1);
+                combi(0, 1);
             } else if (x >= 10) {
                 solution2(x);
             } else {

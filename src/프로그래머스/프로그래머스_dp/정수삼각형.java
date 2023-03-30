@@ -10,9 +10,8 @@ public class 정수삼각형 {
         visited = new int[triangle.length][];
 
         for (int i = 0; i < visited.length; i++) {
-            visited[i] = new int[i+1];
+            visited[i] = new int[i + 1];
         }
-
 
         N = triangle.length;
 
@@ -26,16 +25,16 @@ public class 정수삼각형 {
             answer = Math.max(answer, sum);
         } else {
 
-            if(visited[L+1][c] == 0) {
-                visited[L+1][c] = 1;
+            if (visited[L + 1][c] == 0) {
+                visited[L + 1][c] = 1;
                 dfs(L + 1, sum + triangle[L + 1][c], c, triangle);
-                visited[L+1][c] = 0;
+                visited[L + 1][c] = 0;
             }
 
-            if(visited[L+1][c+1] == 0) {
-                visited[L+1][c+1] = 1;
+            if (visited[L + 1][c + 1] == 0) {
+                visited[L + 1][c + 1] = 1;
                 dfs(L + 1, sum + triangle[L + 1][c + 1], c + 1, triangle);
-                visited[L+1][c+1] = 0;
+                visited[L + 1][c + 1] = 0;
             }
         }
 

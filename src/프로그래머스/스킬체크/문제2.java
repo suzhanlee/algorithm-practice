@@ -19,7 +19,6 @@ public class 문제2 {
                 map.put(gems[i], 1);
             }
 
-
             for (int i = k; i < gems.length; i++) {
 
                 if (map.containsKey(gems[i])) {

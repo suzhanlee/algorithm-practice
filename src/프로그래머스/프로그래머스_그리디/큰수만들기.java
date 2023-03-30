@@ -16,7 +16,6 @@ public class 큰수만들기 {
         int idx = 0;
         int len = number.length() - k;
 
-
         for (int i = 1; i <= len; i++) {
 
             int max = Integer.MIN_VALUE;
@@ -30,7 +29,6 @@ public class 큰수만들기 {
                     idx = j;
                     break;
                 }
-
 
                 if (max < (number.charAt(j) - '0')) {
                     max = number.charAt(j) - '0';

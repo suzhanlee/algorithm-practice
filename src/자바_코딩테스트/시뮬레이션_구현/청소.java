@@ -24,7 +24,6 @@ class 청소 {
     public int[] solution(int[][] board, int k) {
         int[] answer = new int[2];
 
-
         this.board = board;
 
         for (int i = 0; i < k; i++) {
@@ -42,7 +41,7 @@ class 청소 {
         int nx = pt.x + dx[idx];
         int ny = pt.y + dy[idx];
 
-        if(nx >= 0 && nx <= board.length - 1 && ny >= 0 && ny <= board[0].length -1) {
+        if (nx >= 0 && nx <= board.length - 1 && ny >= 0 && ny <= board[0].length - 1) {
 
             if (board[nx][ny] == 1) {
                 changeDirection();

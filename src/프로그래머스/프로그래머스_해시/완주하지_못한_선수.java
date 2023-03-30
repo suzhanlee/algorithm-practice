@@ -16,16 +16,16 @@ public class 완주하지_못한_선수 {
 
         for (int i = 0; i < completion.length; i++) {
             Integer integer = map.get(completion[i]);
-            if(integer >= 1) {
+            if (integer >= 1) {
                 map.put(completion[i], map.get(completion[i]) - 1);
-                if(map.get(completion[i]) <= 0) {
+                if (map.get(completion[i]) <= 0) {
                     map.remove(completion[i]);
 
                 }
             }
         }
 
-        for(Map.Entry<String,Integer> map : map.entrySet()) {
+        for (Map.Entry<String, Integer> map : map.entrySet()) {
             answer = map.getKey();
         }
 

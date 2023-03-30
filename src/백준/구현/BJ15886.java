@@ -16,9 +16,6 @@ public class BJ15886 {
         N = Integer.parseInt(br.readLine());
 
 
-
-
-
     }
 
 }

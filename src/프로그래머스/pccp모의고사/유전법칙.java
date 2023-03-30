@@ -35,7 +35,7 @@ public class 유전법칙 {
             max = Math.max(query[0], max);
         }
 
-        for (int i = 0; i < 100 ; i++) {
+        for (int i = 0; i < 100; i++) {
             graph.add(new ArrayList<>());
         }
 
@@ -96,7 +96,7 @@ public class 유전법칙 {
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 break;
             }
 

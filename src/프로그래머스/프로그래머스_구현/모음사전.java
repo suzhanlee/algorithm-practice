@@ -1,6 +1,7 @@
 package 프로그래머스.프로그래머스_구현;
 
 public class 모음사전 {
+
     static int answer = 0;
     static char[] chars = new char[]{'A', 'E', 'I', 'O', 'U'};
 

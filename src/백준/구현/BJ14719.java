@@ -3,7 +3,6 @@ package 백준.구현;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class BJ14719 {
@@ -19,8 +18,8 @@ public class BJ14719 {
             int leftMax = 0;
             int rightMax = 0;
 
-            int lt = i-1;
-            int rt = i+1;
+            int lt = i - 1;
+            int rt = i + 1;
 
             while (lt != -1) {
 
@@ -28,7 +27,7 @@ public class BJ14719 {
                 lt--;
             }
 
-            while (rt != M+1) {
+            while (rt != M + 1) {
 
                 rightMax = Math.max(rightMax, board[rt]);
                 rt++;
@@ -38,7 +37,7 @@ public class BJ14719 {
 
             int explore = explore(range, i);
 
-            if(explore >= 0) {
+            if (explore >= 0) {
                 answer += explore;
             }
 

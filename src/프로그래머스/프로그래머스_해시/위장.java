@@ -19,7 +19,7 @@ public class 위장 {
 
         Collection<Integer> values = map.values();
 
-        for(Integer value : values) {
+        for (Integer value : values) {
             answer *= (value + 1);
         }
 

@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba5cdb3b-2066-4580-a985-f98adb113d09" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingandsearching/결정알고리즘.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingandsearching/이분검색.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/백트래킹/BJ15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_깊이_너비_우선탐색/게임_맵_최단거리.java" afterDir="false" />
+    <list default="true" id="ba5cdb3b-2066-4580-a985-f98adb113d09" name="변경" comment="시뮬레이션-구현&#10;: 청소">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/dp/BJ1010_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/dp/BJ1010_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/dp/BJ10844.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/dp/BJ10844.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ11723.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ11723.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ14719.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ14719.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ14719실패코드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ14719실패코드.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ15886.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ15886.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ20164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ20164.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2615.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2615.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2877.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2877.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2877_메모리_초과코드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2877_메모리_초과코드.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1043.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1043.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ14502.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ14502.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ7562.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ7562.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ11501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ11501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ13164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ13164.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ16953_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ16953_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/정렬/BJ18870.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/정렬/BJ18870.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/사다리타기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/사다리타기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/청소.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/청소.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/외톨이_알파벳.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/외톨이_알파벳.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/유전법칙.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/유전법칙.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스터디/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스터디/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_dp/정수삼각형.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_dp/정수삼각형.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/모음사전.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/모음사전.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/소수찾기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/카펫.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/카펫.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/피로도.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/피로도.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_그리디/큰수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_그리디/큰수만들기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/같은_숫자는_싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/같은_숫자는_싫어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/기능_개발.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/기능_개발.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/완주하지_못한_선수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/완주하지_못한_선수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/위장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/위장.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/전화번호_목록.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/전화번호_목록.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +80,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="자바_코딩테스트.시뮬레이션_구현" />
       <recent name="suchan" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.문제2">
+  <component name="RunManager" selected="애플리케이션.잃어버린_강아지">
     <configuration name="체육대회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="프로그래머스.pccp모의고사.체육대회" />
       <module name="algorithm" />
@@ -91,6 +117,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="프로그래머스.스킬체크.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="청소" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.시뮬레이션_구현.청소" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.시뮬레이션_구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="외톨이_알파벳" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.pccp모의고사.외톨이_알파벳" />
+    <configuration name="잃어버린_강아지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.시뮬레이션_구현.잃어버린_강아지" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="프로그래머스.pccp모의고사.*" />
+          <option name="PATTERN" value="자바_코딩테스트.시뮬레이션_구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,26 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="전력망을_둘로_나누기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.프로그래머스_구현.전력망을_둘로_나누기" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="프로그래머스.프로그래머스_구현.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.잃어버린_강아지" />
+        <item itemvalue="애플리케이션.청소" />
         <item itemvalue="애플리케이션.문제2" />
         <item itemvalue="애플리케이션.문제1" />
         <item itemvalue="애플리케이션.체육대회" />
-        <item itemvalue="애플리케이션.외톨이_알파벳" />
-        <item itemvalue="애플리케이션.전력망을_둘로_나누기" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +347,30 @@
       <workItem from="1679387363978" duration="3376000" />
       <workItem from="1679396851567" duration="9000" />
       <workItem from="1679468195428" duration="6530000" />
+      <workItem from="1680177133182" duration="7172000" />
     </task>
+    <task id="LOCAL-00001" summary="시뮬레이션-구현&#10;: 사다리 타기">
+      <created>1680177329736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680177329736</updated>
+    </task>
+    <task id="LOCAL-00002" summary="시뮬레이션-구현&#10;: 사다리 타기">
+      <created>1680177378598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680177378598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="시뮬레이션-구현&#10;: 청소">
+      <created>1680181576796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680181576796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,11 +381,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="시뮬레이션-구현&#10;: 사다리 타기" />
+    <MESSAGE value="시뮬레이션-구현&#10;: 청소" />
+    <option name="LAST_COMMIT_MESSAGE" value="시뮬레이션-구현&#10;: 청소" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,6 +421,11 @@
           <url>file://$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/완주하지_못한_선수.java</url>
           <line>16</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/청소.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/백준/브루트포스/BJ15686.java</url>

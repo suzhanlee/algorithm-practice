@@ -22,7 +22,7 @@ public class BJ13164 {
 
         Collections.sort(minusArr);
 
-        for (int i = 0; i < N-K; i++) {
+        for (int i = 0; i < N - K; i++) {
 
             answer += minusArr.get(i);
 

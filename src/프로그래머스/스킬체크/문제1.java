@@ -17,10 +17,10 @@ public class 문제1 {
         int[] times = new int[cores.length];
 
         for (int i = 0; i < cores.length; i++) {
-            if(num > 0) {
+            if (num > 0) {
                 times[i] = cores[i];
                 num--;
-            }else {
+            } else {
                 break;
             }
         }
@@ -46,7 +46,6 @@ public class 문제1 {
                 }
 
             }
-
 
 //            idx++;
         }

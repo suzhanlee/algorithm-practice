@@ -72,7 +72,7 @@ public class BJ14502 {
             for (int i = 1; i <= N; i++) {
                 for (int j = 1; j <= M; j++) {
 
-                    if(newGraph[i][j] == 2) {
+                    if (newGraph[i][j] == 2) {
                         queue.offer(new Point(i, j));
                     }
 

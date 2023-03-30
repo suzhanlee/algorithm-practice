@@ -22,7 +22,6 @@ public class BJ2877 {
 
         while (K != -1) {
 
-
             num = K % 2;
             sb1.append(num);
             K = K / 2;

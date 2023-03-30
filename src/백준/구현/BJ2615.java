@@ -22,7 +22,7 @@ public class BJ2615 {
     static int minY = Integer.MAX_VALUE;
     static ArrayList<Location> locations = new ArrayList<Location>();
 
-    static class Location implements Comparable<Location>{
+    static class Location implements Comparable<Location> {
 
         int x;
         int y;
@@ -66,23 +66,23 @@ public class BJ2615 {
             nx += dx[0];
             ny += dy[0];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[0];
             ny += dy[0];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -92,16 +92,16 @@ public class BJ2615 {
             x -= dx[0];
             y -= dy[0];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -124,23 +124,23 @@ public class BJ2615 {
             nx += dx[1];
             ny += dy[1];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[1];
             ny += dy[1];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -150,16 +150,16 @@ public class BJ2615 {
             x -= dx[1];
             y -= dy[1];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -183,23 +183,23 @@ public class BJ2615 {
             nx += dx[2];
             ny += dy[2];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[2];
             ny += dy[2];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -209,16 +209,16 @@ public class BJ2615 {
             x -= dx[2];
             y -= dy[2];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -242,23 +242,23 @@ public class BJ2615 {
             nx += dx[3];
             ny += dy[3];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[3];
             ny += dy[3];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -268,16 +268,16 @@ public class BJ2615 {
             x -= dx[3];
             y -= dy[3];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -301,23 +301,23 @@ public class BJ2615 {
             nx += dx[4];
             ny += dy[4];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[4];
             ny += dy[4];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -327,16 +327,16 @@ public class BJ2615 {
             x -= dx[4];
             y -= dy[4];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -360,23 +360,23 @@ public class BJ2615 {
             nx += dx[5];
             ny += dy[5];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[5];
             ny += dy[5];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -386,16 +386,16 @@ public class BJ2615 {
             x -= dx[5];
             y -= dy[5];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -419,23 +419,23 @@ public class BJ2615 {
             nx += dx[6];
             ny += dy[6];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[6];
             ny += dy[6];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -445,16 +445,16 @@ public class BJ2615 {
             x -= dx[6];
             y -= dy[6];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -478,23 +478,23 @@ public class BJ2615 {
             nx += dx[7];
             ny += dy[7];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] != color) {
                     flag = false;
                 }
-            }else {
+            } else {
                 return;
             }
 
         }
 
-        if(flag) {
+        if (flag) {
 
             nx += dx[7];
             ny += dy[7];
 
-            if(nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
+            if (nx >= 0 && nx <= 18 && ny >= 0 && ny <= 18) {
 
                 if (board[nx][ny] == color) {
                     flag = false;
@@ -504,16 +504,16 @@ public class BJ2615 {
             x -= dx[7];
             y -= dy[7];
 
-            if(x >= 0 && x <= 18 && y >= 0 && y <= 18) {
+            if (x >= 0 && x <= 18 && y >= 0 && y <= 18) {
 
                 if (board[x][y] == color) {
                     flag = false;
                 }
             }
 
-            if(flag) {
+            if (flag) {
                 locations.add(location);
-                if(color == 1) {
+                if (color == 1) {
                     victoryW++;
                 } else {
                     victoryB++;
@@ -551,7 +551,7 @@ public class BJ2615 {
 
         Collections.sort(locations);
 
-        if(victoryB == 2 && victoryW == 0) {
+        if (victoryB == 2 && victoryW == 0) {
 
             System.out.println(2);
             int x = locations.get(0).x + 1;

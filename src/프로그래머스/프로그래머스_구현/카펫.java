@@ -25,7 +25,8 @@ public class 카펫 {
 
         for (int i = 0; i < arrayList.size() / 2 + 1; i++) {
 
-            if (((arrayList.get(i) + 2) * (arrayList.get(arrayList.size() - (i + 1)) + 2)) == outer) {
+            if (((arrayList.get(i) + 2) * (arrayList.get(arrayList.size() - (i + 1)) + 2))
+                == outer) {
                 answers.add(arrayList.get(i) + 2);
                 answers.add(arrayList.get(arrayList.size() - (i + 1)) + 2);
                 break;

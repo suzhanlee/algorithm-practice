@@ -40,12 +40,12 @@ public class BJ7562 {
                 int nx = pt.x + dx[i];
                 int ny = pt.y + dy[i];
 
-                if (nx >= 0 && nx <= l-1 && ny >= 0 && ny <= l-1 && visited[nx][ny] == 0) {
+                if (nx >= 0 && nx <= l - 1 && ny >= 0 && ny <= l - 1 && visited[nx][ny] == 0) {
                     visited[nx][ny] = 1;
                     queue.offer(new Point(nx, ny));
                     dis[nx][ny] = dis[pt.x][pt.y] + 1;
 
-                    if(nx == x2 && ny == y2) {
+                    if (nx == x2 && ny == y2) {
                         return;
                     }
                 }
@@ -84,7 +84,7 @@ public class BJ7562 {
             x2 = Integer.parseInt(st2.nextToken());
             y2 = Integer.parseInt(st2.nextToken());
 
-            if(x2 == x1 && y2 == y1) {
+            if (x2 == x1 && y2 == y1) {
                 System.out.println(0);
                 continue;
             }

@@ -37,8 +37,6 @@ public class 피로도 {
 
     public static void main(String[] args) {
 
-
-
     }
 
 }

@@ -12,10 +12,12 @@ public class Solution {
     static String[] terms;
     static String[] privacies;
     static int[] answer;
+
     /**
      * 개인정보 수집 유효기간
-     * @param today 오늘 날짜 YYYY.MM.DD
-     * @param terms 약관의 유효기간 (약관종류 유효기간) : 공백으로 구분, 유효기간은 개월수
+     *
+     * @param today     오늘 날짜 YYYY.MM.DD
+     * @param terms     약관의 유효기간 (약관종류 유효기간) : 공백으로 구분, 유효기간은 개월수
      * @param privacies 수집된 개인정보 (날짜 약관정보) : 공백으로 구분
      * @return 파기해야할 개인정보의 번호 오름차순
      */
@@ -59,7 +61,8 @@ public class Solution {
 
     /**
      * (YYYY.MM.DD)을 총 날짜 수로 환산
-     * @param strDate YYYY.MM.DD
+     *
+     * @param strDate    YYYY.MM.DD
      * @param termsMonth 약관 개월 수
      * @return 날짜로 환산한 총 날짜 수
      */

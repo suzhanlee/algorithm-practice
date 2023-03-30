@@ -15,7 +15,7 @@ public class 전화번호_목록 {
             phones.put(phone_book[i], false);
         }
 
-        OUTER :
+        OUTER:
         for (String key : phones.keySet()) {
             for (int i = 1; i < key.length(); i++) {
                 if (phones.containsKey(key.substring(0, i))) {

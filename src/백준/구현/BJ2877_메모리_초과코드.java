@@ -47,7 +47,7 @@ public class BJ2877_메모리_초과코드 {
 
     private static void dfs(int L, String str) {
 
-        if(flag) {
+        if (flag) {
             return;
         }
 

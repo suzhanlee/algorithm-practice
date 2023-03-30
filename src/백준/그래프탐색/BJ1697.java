@@ -40,7 +40,7 @@ public class BJ1697 {
                 queue.offer(poll * 2);
             }
 
-            if (2 * poll <= 100000 && visited[poll * 2] == 0){
+            if (2 * poll <= 100000 && visited[poll * 2] == 0) {
                 visited[poll * 2] = 1;
                 dis[poll * 2] = dis[poll] + 1;
 

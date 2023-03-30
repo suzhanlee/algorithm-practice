@@ -19,11 +19,12 @@ public class 외톨이_알파벳 {
         String answer = "";
         외톨이_알파벳.input_string = input_string;
 
-        map.put(input_string.charAt(0),1);
+        map.put(input_string.charAt(0), 1);
 
         for (int i = 1; i < input_string.length(); i++) {
 
-            if (input_string.charAt(i) != input_string.charAt(i - 1) && map.containsKey(input_string.charAt(i))) {
+            if (input_string.charAt(i) != input_string.charAt(i - 1) && map.containsKey(
+                input_string.charAt(i))) {
                 answerSet.add(input_string.charAt(i));
             }
 
@@ -39,7 +40,7 @@ public class 외톨이_알파벳 {
             answer += character;
         }
 
-        if(answer.equals("")) {
+        if (answer.equals("")) {
             answer = "N";
         }
 
