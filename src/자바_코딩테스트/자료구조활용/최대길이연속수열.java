@@ -1,26 +1,38 @@
 package 자바_코딩테스트.자료구조활용;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.Set;
 
 class 최대길이연속수열 {
 
     public int solution(int[] nums) {
-        int answer = 0;
-        HashSet<Integer> set = new HashSet<>();
-        for (int x : nums) {
-            set.add(x);
+        int answer = 1;
+        int sum = 1;
+        Set<Integer> set = new HashSet();
+
+        for (int i = 0; i < nums.length; i++) {
+            set.add(nums[i]);
         }
-        for (int x : set) {
-            if (set.contains(x - 1)) {
-                continue;
+
+        ArrayList<Integer> answerList = new ArrayList<>(set);
+        Collections.sort(answerList);
+
+        for (int i = 1; i < answerList.size(); i++) {
+
+            if (answerList.get(i) == answerList.get(i-1) + 1) {
+                sum++;
+            } else {
+                answer = Math.max(sum, answer);
+                sum = 0;
             }
-            int cnt = 0;
-            while (set.contains(x)) {
-                cnt++;
-                x++;
-            }
-            answer = Math.max(answer, cnt);
+
         }
+
+        answer = Math.max(sum, answer);
+
         return answer;
     }
 
