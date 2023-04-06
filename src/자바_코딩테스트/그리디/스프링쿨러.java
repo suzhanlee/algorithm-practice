@@ -5,28 +5,42 @@ import java.util.Arrays;
 class 스프링쿨러 {
 
     public int solution(int n, int[] nums) {
+
         int answer = 0;
-        int[][] line = new int[nums.length + 1][2];
+
+        int[][] cooler = new int[nums.length + 1][2];
+
         for (int i = 0; i <= n; i++) {
-            line[i][0] = Math.max(0, i - nums[i]);
-            line[i][1] = Math.min(n, i + nums[i]);
+            cooler[i][0] = Math.max(0, i - nums[i]);
+            cooler[i][1] = Math.min(n, i + nums[i]);
         }
-        Arrays.sort(line, (a, b) -> a[0] - b[0]);
-        int start = 0, end = 0, i = 0;
-        while (i < line.length) {
-            while (i < line.length && line[i][0] <= start) {
-                end = Math.max(end, line[i][1]);
-                i++;
+
+        Arrays.sort(cooler, (a, b) -> a[0] - b[0]); // start 기준 정렬
+
+        int start = 0;
+        int end = 0;
+        int idx = 0;
+
+        while (idx < cooler.length) {
+
+            while (idx < cooler.length && cooler[idx][0] <= start) {
+                end = Math.max(end, cooler[idx][1]);
+                idx++;
             }
+
             answer++;
+
             if (end == n) {
                 return answer;
             }
+
             if (start == end) {
                 return -1;
             }
+
             start = end;
         }
+
         return answer;
     }
 

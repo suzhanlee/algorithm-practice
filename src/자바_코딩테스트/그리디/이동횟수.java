@@ -6,19 +6,26 @@ class 이동횟수 {
 
     public int solution(int[] nums) {
         int answer = 0;
+
         Arrays.sort(nums);
-        int left = 0;
-        int right = nums.length - 1;
-        while (left <= right) {
-            if (nums[left] + nums[right] <= 5) {
-                answer++;
-                left++;
-                right--;
+
+        int lt = 0;
+        int rt = nums.length - 1;
+
+        while (lt <= rt) {
+
+            if (nums[rt] + nums[lt] > 5) {
+                if (nums[rt] <= 5) {
+                    rt--;
+                    answer++;
+                }
             } else {
+                lt++;
+                rt--;
                 answer++;
-                right--;
             }
         }
+
         return answer;
     }
 

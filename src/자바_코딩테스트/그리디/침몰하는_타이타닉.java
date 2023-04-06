@@ -6,19 +6,26 @@ class 침몰하는_타이타닉 {
 
     public int solution(int[] nums, int m) {
         int answer = 0;
+
         Arrays.sort(nums);
-        int left = 0;
-        int right = nums.length - 1;
-        while (left <= right) {
-            if (nums[left] + nums[right] <= m) {
-                answer++;
-                left++;
-                right--;
+
+        int lt = 0;
+        int rt = nums.length - 1;
+
+        while (lt <= rt) {
+
+            if (nums[rt] + nums[lt] > m) {
+                if (nums[rt] <= m) {
+                    rt--;
+                    answer++;
+                }
             } else {
+                lt++;
+                rt--;
                 answer++;
-                right--;
             }
         }
+
         return answer;
     }
 
