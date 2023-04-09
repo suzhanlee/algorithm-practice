@@ -30,7 +30,6 @@ class 꽃이피는최단시간 {
 
             start += period[idx][0];
             idx++;
-
         }
 
         return end;
