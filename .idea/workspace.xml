@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba5cdb3b-2066-4580-a985-f98adb113d09" name="변경" comment="시뮬레이션-구현&#10;: 청소">
+    <list default="true" id="ba5cdb3b-2066-4580-a985-f98adb113d09" name="변경" comment="해싱 &amp; 시간파싱">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/dp/BJ1010_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/dp/BJ1010_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/dp/BJ10844.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/dp/BJ10844.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ11723.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ11723.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ14719.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ14719.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ14719실패코드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ14719실패코드.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ15886.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ15886.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ20164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ20164.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2615.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2615.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2877.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2877.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/구현/BJ2877_메모리_초과코드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/구현/BJ2877_메모리_초과코드.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1043.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1043.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ14502.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ14502.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ1697.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그래프탐색/BJ7562.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그래프탐색/BJ7562.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ11501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ11501.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ13164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ13164.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/그리디/BJ16953_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/그리디/BJ16953_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/정렬/BJ18870.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/정렬/BJ18870.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/사다리타기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/사다리타기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/청소.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/자바_코딩테스트/시뮬레이션_구현/청소.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/외톨이_알파벳.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/외톨이_알파벳.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/유전법칙.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/pccp모의고사/유전법칙.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스킬체크/문제2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/스터디/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/스터디/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_dp/정수삼각형.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_dp/정수삼각형.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/모음사전.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/모음사전.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/소수찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/카펫.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/카펫.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/피로도.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_구현/피로도.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_그리디/큰수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_그리디/큰수만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/같은_숫자는_싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/같은_숫자는_싫어.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/기능_개발.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_스택_큐/기능_개발.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/완주하지_못한_선수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/완주하지_못한_선수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/위장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/위장.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/전화번호_목록.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/프로그래머스/프로그래머스_해시/전화번호_목록.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,6 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/jdbc&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -84,39 +52,13 @@
       <recent name="suchan" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.잃어버린_강아지">
-    <configuration name="체육대회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.pccp모의고사.체육대회" />
+  <component name="RunManager" selected="애플리케이션.같은빈도수만들기">
+    <configuration name="같은빈도수만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.해싱_시간파싱.같은빈도수만들기" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="프로그래머스.pccp모의고사.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.스킬체크.문제1" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="프로그래머스.스킬체크.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.스킬체크.문제2" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="프로그래머스.스킬체크.*" />
+          <option name="PATTERN" value="자바_코딩테스트.해싱_시간파싱.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +131,155 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="스프링쿨러" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.그리디.스프링쿨러" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.그리디.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="꽃이피는최단시간" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.그리디.꽃이피는최단시간" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.그리디.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="가장가까운큰수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.깊이우선탐색.가장가까운큰수" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.깊이우선탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="최대길이연속수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.자료구조활용.최대길이연속수열" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.자료구조활용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="겹쳐진압축해제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.자료구조활용.겹쳐진압축해제" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.자료구조활용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="음수가있는부분수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.해싱_시간파싱.음수가있는부분수열" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.해싱_시간파싱.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="한번사용한최초문자" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.해싱_시간파싱.한번사용한최초문자" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.해싱_시간파싱.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="이동횟수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.그리디.이동횟수" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.그리디.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스프링쿨러" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.그리디.스프링쿨러" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.그리디.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="서로다른빈도수만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.해싱_시간파싱.서로다른빈도수만들기" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.해싱_시간파싱.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="잃어버린_강아지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.시뮬레이션_구현.잃어버린_강아지" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="자바_코딩테스트.시뮬레이션_구현.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="침몰하는_타이타닉" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="자바_코딩테스트.그리디.침몰하는_타이타닉" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="자바_코딩테스트.그리디.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +302,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.같은빈도수만들기" />
         <item itemvalue="애플리케이션.잃어버린_강아지" />
-        <item itemvalue="애플리케이션.청소" />
-        <item itemvalue="애플리케이션.문제2" />
-        <item itemvalue="애플리케이션.문제1" />
-        <item itemvalue="애플리케이션.체육대회" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +429,18 @@
       <workItem from="1679387363978" duration="3376000" />
       <workItem from="1679396851567" duration="9000" />
       <workItem from="1679468195428" duration="6530000" />
-      <workItem from="1680177133182" duration="7172000" />
+      <workItem from="1680177133182" duration="8068000" />
+      <workItem from="1680247412837" duration="4820000" />
+      <workItem from="1680346818947" duration="1877000" />
+      <workItem from="1680411994491" duration="9457000" />
+      <workItem from="1680502716062" duration="7000" />
+      <workItem from="1680601009159" duration="385000" />
+      <workItem from="1680671299633" duration="6108000" />
+      <workItem from="1680754917437" duration="10597000" />
+      <workItem from="1680851546615" duration="1556000" />
+      <workItem from="1681051966182" duration="365000" />
+      <workItem from="1681053422194" duration="135000" />
+      <workItem from="1681153698150" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="시뮬레이션-구현&#10;: 사다리 타기">
       <created>1680177329736</created>
@@ -370,7 +463,112 @@
       <option name="project" value="LOCAL" />
       <updated>1680181576796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="시뮬레이션-구현&#10;: 잃어버린 강아지">
+      <created>1680184538970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680184538970</updated>
+    </task>
+    <task id="LOCAL-00005" summary="import 최적화">
+      <created>1680184676834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680184676834</updated>
+    </task>
+    <task id="LOCAL-00006" summary="해싱_시간파싱 : 한번 사용한 최초 문자">
+      <created>1680248298970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248298972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="해싱_시간파싱 : 같은 빈도수 만들기">
+      <created>1680248867357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248867357</updated>
+    </task>
+    <task id="LOCAL-00008" summary="해싱_시간파싱 : 서로 다른 빈도수 만들기">
+      <created>1680251939609</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680251939609</updated>
+    </task>
+    <task id="LOCAL-00009" summary="자료구조 활용 : 최대 길이 연속 수열">
+      <created>1680359877244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680359877244</updated>
+    </task>
+    <task id="LOCAL-00010" summary="자료구조 활용 : 최대 길이 연속 수열">
+      <created>1680414298385</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680414298385</updated>
+    </task>
+    <task id="LOCAL-00011" summary="그리디 : 침몰하는 타이타닉, 이동횟수, 스프링쿨러&#10;깊이우선탐색 : 가장 가까운 큰수, 줄다리기">
+      <created>1680601383516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680601383517</updated>
+    </task>
+    <task id="LOCAL-00012" summary="그리디 코드 리팩토링 및 꽃이 피는 최단시간 구하기">
+      <created>1680761171629</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680761171629</updated>
+    </task>
+    <task id="LOCAL-00013" summary="깊이우선탐색 : 가장 가까운 큰수 코드 수정">
+      <created>1680763484320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680763484320</updated>
+    </task>
+    <task id="LOCAL-00014" summary="넓이 우선 탐색 : 타일점프, 집으로 이동, 송아지를 잡자">
+      <created>1680853427137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680853427137</updated>
+    </task>
+    <task id="LOCAL-00015" summary="그래프 최단거리">
+      <created>1681052298370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681052298370</updated>
+    </task>
+    <task id="LOCAL-00016" summary="코드 수정">
+      <created>1681052317091</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681052317091</updated>
+    </task>
+    <task id="LOCAL-00017" summary="시뮬레이션 &amp; 구현">
+      <created>1681154073822</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681154073822</updated>
+    </task>
+    <task id="LOCAL-00018" summary="해싱 &amp; 시간파싱">
+      <created>1681154503150</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681154503150</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +600,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="시뮬레이션-구현&#10;: 사다리 타기" />
     <MESSAGE value="시뮬레이션-구현&#10;: 청소" />
-    <option name="LAST_COMMIT_MESSAGE" value="시뮬레이션-구현&#10;: 청소" />
+    <MESSAGE value="시뮬레이션-구현&#10;: 잃어버린 강아지" />
+    <MESSAGE value="import 최적화" />
+    <MESSAGE value="해싱_시간파싱 : 한번 사용한 최초 문자" />
+    <MESSAGE value="해싱_시간파싱 : 같은 빈도수 만들기" />
+    <MESSAGE value="해싱_시간파싱 : 서로 다른 빈도수 만들기" />
+    <MESSAGE value="자료구조 활용 : 최대 길이 연속 수열" />
+    <MESSAGE value="그리디 : 침몰하는 타이타닉, 이동횟수, 스프링쿨러&#10;깊이우선탐색 : 가장 가까운 큰수, 줄다리기" />
+    <MESSAGE value="그리디 코드 리팩토링 및 꽃이 피는 최단시간 구하기" />
+    <MESSAGE value="깊이우선탐색 : 가장 가까운 큰수 코드 수정" />
+    <MESSAGE value="넓이 우선 탐색 : 타일점프, 집으로 이동, 송아지를 잡자" />
+    <MESSAGE value="그래프 최단거리" />
+    <MESSAGE value="코드 수정" />
+    <MESSAGE value="시뮬레이션 &amp; 구현" />
+    <MESSAGE value="해싱 &amp; 시간파싱" />
+    <option name="LAST_COMMIT_MESSAGE" value="해싱 &amp; 시간파싱" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
