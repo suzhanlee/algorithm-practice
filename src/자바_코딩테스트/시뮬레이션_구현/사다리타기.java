@@ -2,7 +2,11 @@ package 자바_코딩테스트.시뮬레이션_구현;
 
 import java.util.Arrays;
 
+<<<<<<< HEAD
 class 사다리타기 {
+=======
+class Solution {
+>>>>>>> origin/main
 
     static int[][] ladder;
 
@@ -28,12 +32,20 @@ class 사다리타기 {
 
             for (int j = 0; j < ladder[i].length; j++) {
                 int x = ladder[i][j];
+<<<<<<< HEAD
                 if (num == x) {
+=======
+                if(num == x) {
+>>>>>>> origin/main
                     num++;
                     break;
                 }
 
+<<<<<<< HEAD
                 if (num == x + 1) {
+=======
+                if(num == x + 1) {
+>>>>>>> origin/main
                     num--;
                     break;
 
@@ -46,7 +58,11 @@ class 사다리타기 {
     }
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         사다리타기 T = new 사다리타기();
+=======
+        Solution T = new Solution();
+>>>>>>> origin/main
         System.out.println(Arrays.toString(T.solution(5, new int[][]{{1, 3}, {2, 4}, {1, 4}})));
         System.out.println(
             Arrays.toString(T.solution(7, new int[][]{{1, 3, 5}, {1, 3, 6}, {2, 4}})));
