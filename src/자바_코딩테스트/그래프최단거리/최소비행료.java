@@ -27,6 +27,7 @@ class 최소비행료 {
         costs[s] = 0;
 
         int L = 0;
+
         while (!queue.isEmpty()) {
             int len = queue.size();
 

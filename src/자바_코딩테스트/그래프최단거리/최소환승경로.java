@@ -20,6 +20,7 @@ class 최소환승경로 {
                 graph.get(x).add(i);
             }
         }
+
         Queue<Integer> queue = new LinkedList<>();
         int[] visited = new int[n];
         queue.offer(s);
