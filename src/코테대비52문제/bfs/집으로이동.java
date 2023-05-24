@@ -5,8 +5,8 @@ import java.util.Queue;
 
 public class 집으로이동 {
 
-    static Queue<Integer> queue;
-    static int[] visited;
+    static Queue<nVertex> queue;
+    static int[][] visited;
     static int[] dx;
 
     public int solution(int[] pool, int a, int b, int home) {
@@ -15,43 +15,73 @@ public class 집으로이동 {
 
         dx = new int[]{a, -b};
 
-        visited = new int[home + 2 * b + 1];
+        visited = new int[2][1001];
 
-        queue.offer(0);
-        visited[0] = 1;
+        for (int j : pool) {
+            visited[0][j] = 1;
+            visited[1][j] = 1;
+        }
 
-        return bfs(0, 0, home);
+        queue.offer(new nVertex(0, 0));
+        visited[0][0] = 1;
+        visited[1][0] = 1;
+
+        return bfs(0, home);
 
     }
 
-    public int bfs(int L, int cnt, int home) {
+    static class nVertex {
+
+        int nx;
+        int cnt;
+
+        public nVertex(int nx, int cnt) {
+            this.nx = nx;
+            this.cnt = cnt;
+        }
+    }
+
+    public int bfs(int L, int home) {
 
         while (!queue.isEmpty()) {
 
-            Integer poll = queue.poll();
+            int size = queue.size();
 
-            for (int i = 0; i <= 1; i++) {
-                int nx = poll + dx[i];
-                if (i == 1) {
-                    cnt++;
-                } else {
-                    cnt--;
-                }
+            for (int k = 0; k < size; k++) {
 
-                if (nx >= 0 && nx <= visited.length - 1 && visited[nx] == 0) {
+                nVertex poll = queue.poll();
 
-                    visited[nx] = 1;
-                    queue.offer(nx);
+                for (int i = 0; i <= 1; i++) {
+
+                    int nx = poll.nx + dx[i];
+                    int cnt;
 
                     if (nx == home) {
                         return L + 1;
                     }
-                }
 
+                    if (i == 0) {
+                        cnt = 0;
+
+                        if (nx >= 0 && visited[0][nx] == 0 && nx <= visited[0].length - 1) {
+                            visited[0][nx] = 1;
+                            queue.offer(new nVertex(nx, cnt));
+
+                        }
+                    } else {
+                        cnt = poll.cnt + 1;
+
+                        if (nx >= 0 && visited[1][nx] == 0 && nx <= visited[1].length - 1 && cnt < 2) {
+                            visited[1][nx] = 1;
+                            queue.offer(new nVertex(nx, cnt));
+
+                        }
+                    }
+                }
             }
             L++;
-
         }
+
         return -1;
     }
 
