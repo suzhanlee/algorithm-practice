@@ -1,12 +1,9 @@
 package 코테대비52문제.dfs;
-
 public class 줄다리기 {
-
     static int answer;
     static int[] pm;
     static int[] visited;
     static int[][] graph;
-
     public int solution(int[][] fight) {
 
         answer = 0;
@@ -14,6 +11,7 @@ public class 줄다리기 {
         graph = new int[8][8];
 
         pm = new int[8];
+
         visited = new int[8];
 
         for (int[] ints : fight) {
@@ -27,7 +25,6 @@ public class 줄다리기 {
         dfs(0);
 
         return answer;
-
     }
 
     public void dfs(int L) {
@@ -46,13 +43,11 @@ public class 줄다리기 {
                 }
 
                 if (visited[i] == 0) {
-                        visited[i] = 1;
-                        pm[L + 1] = i;
-                        dfs(L + 1);
-                        visited[i] = 0;
-
-                    }
-
+                    visited[i] = 1;
+                    pm[L + 1] = i;
+                    dfs(L + 1);
+                    visited[i] = 0;
+                }
             }
         }
     }
