@@ -41,7 +41,7 @@ public class 미로의최단거리통로 {
 
                 Point poll = queue.poll();
 
-                for (int i = 0; i < 3; i++) {
+                for (int i = 0; i <= 3; i++) {
                     int nx = poll.x + dx[i];
                     int ny = poll.y + dy[i];
 
@@ -55,16 +55,14 @@ public class 미로의최단거리통로 {
                 }
             }
             L++;
-
         }
         return -1;
-
     }
 
 
     public static void main(String[] args) {
 
-        미로의최단거리통로 T = new 미로의최단거리통로();
+        미로의최단거리통로2 T = new 미로의최단거리통로2();
 
         int[][] arr = {{0, 0, 0, 0, 0, 0, 0},
             {0, 1, 1, 1, 1, 1, 0},
