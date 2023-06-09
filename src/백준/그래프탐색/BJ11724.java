@@ -17,13 +17,6 @@ public class BJ11724 { // checked[] 로 하는 방식이 visited[][] 보다 훨�
     public static void dfs(int V) {
 
         for (int x : graph.get(V)) {
-
-//            if (visited[V][x] == 0) {
-//                visited[V][x] = 1;
-//                checked[x] = 1;
-//                dfs(x);
-//                visited[V][x] = 0;
-//            }
             if (checked[x] == 0) {
                 checked[x] = 1;
                 dfs(x);
