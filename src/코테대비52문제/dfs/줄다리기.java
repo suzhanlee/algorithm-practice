@@ -1,15 +1,16 @@
 package 코테대비52문제.dfs;
+
 public class 줄다리기 {
+
     static int answer;
     static int[] pm;
     static int[] visited;
     static int[][] graph;
+
     public int solution(int[][] fight) {
 
         answer = 0;
-
         graph = new int[8][8];
-
         pm = new int[8];
 
         visited = new int[8];
@@ -23,7 +24,6 @@ public class 줄다리기 {
         }
 
         dfs(0);
-
         return answer;
     }
 

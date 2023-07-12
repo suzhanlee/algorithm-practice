@@ -7,23 +7,26 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-class Point {
-    int x;
-    int y;
-
-    Point(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
 public class 치킨배달new {
+
     static int N, M;
     static int[][] map;
     static ArrayList<Point> person;
     static ArrayList<Point> chicken;
     static int ans;
     static boolean[] open;
+
+    static class Point {
+
+        int x;
+        int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

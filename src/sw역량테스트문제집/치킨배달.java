@@ -4,12 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
-import jdk.swing.interop.SwingInterOpUtils;
 
 public class 치킨배달 {
 
@@ -17,6 +15,7 @@ public class 치킨배달 {
     static int[][] board;
     static List<Point> chickenPts = new ArrayList<>();
     static List<Point> tmpPts = new ArrayList<>();
+
     static Queue<Point> queue;
     static int sum;
     static int answer = Integer.MAX_VALUE;
@@ -36,7 +35,6 @@ public class 치킨배달 {
             this.y = y;
         }
     }
-
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -60,13 +58,18 @@ public class 치킨배달 {
             }
         }
 
+        tmpPts.add(0, null);
+        tmpPts.add(1, null);
+
         combi(0, 0);
         System.out.println(answer);
     }
 
+
     private static void combi(int L, int start) {
         if (L == M) {
-            for (Point tmpPt : tmpPts) {
+            for (int i = 0; i < 2; i++) {
+                Point tmpPt = tmpPts.get(i);
                 System.out.println("x : " + tmpPt.x + " " + "y : " + tmpPt.y);
                 board[tmpPt.x][tmpPt.y] = 2;
             }
@@ -84,7 +87,6 @@ public class 치킨배달 {
                 }
             }
 
-
             answer = Math.min(answer, sum);
             sum = 0;
 
@@ -96,6 +98,9 @@ public class 치킨배달 {
                 }
             }
 
+            tmpPts = new ArrayList<>();
+            tmpPts.add(0, null);
+            tmpPts.add(1, null);
         } else {
 
             for (int i = start; i < chickenPts.size(); i++) {

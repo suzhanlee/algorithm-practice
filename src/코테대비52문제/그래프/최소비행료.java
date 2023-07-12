@@ -45,6 +45,7 @@ public class 최소비행료 {
                     int totalCost = nowCost + nextCost;
 
                     if (next == e) {
+
                         answer = Math.min(answer, totalCost);
                     }
 
@@ -57,7 +58,7 @@ public class 최소비행료 {
                 break;
             }
         }
-        if(answer == Integer.MAX_VALUE) {
+        if (answer == Integer.MAX_VALUE) {
             return -1;
         } else {
             return answer;
