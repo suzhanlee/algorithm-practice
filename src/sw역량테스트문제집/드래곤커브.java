@@ -22,9 +22,9 @@ public class 드래곤커브 {
 
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            move(Integer.parseInt((st.nextToken()), Integer.parseInt((st.nextToken()),
-                getDirections(
-                    Integer.parseInt((st.nextToken()), Integer.parseInt((st.nextToken())));
+
+            int value = Integer.parseInt((st.nextToken()));
+            move(value, value, getDirections(value, value));
         }
 
         System.out.println(count());
