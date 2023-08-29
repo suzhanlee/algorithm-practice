@@ -1,13 +1,19 @@
 package sw역량테스트문제집;
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.StringTokenizer;
 
 public class 상어초등학교 {
+
     static int N, sum;
     static int[] students;
-    static int[] dx = { -1, 0, 1, 0 };
-    static int[] dy = { 0, 1, 0, -1 };
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, 1, 0, -1};
     static int[][] map;
     static Map<Integer, Set<Integer>> preferences;
 
@@ -84,7 +90,6 @@ public class 상어초등학교 {
     }
 
 
-
     static class Seat implements Comparable<Seat> {
 
         int x, y, studentSum, emptySum;
@@ -98,14 +103,17 @@ public class 상어초등학교 {
 
         @Override
         public int compareTo(Seat other) {
-            if (studentSum != other.studentSum)
+            if (studentSum != other.studentSum) {
                 return -(studentSum - other.studentSum);
+            }
 
-            if (emptySum != other.emptySum)
+            if (emptySum != other.emptySum) {
                 return -(emptySum - other.emptySum);
+            }
 
-            if (x != other.x)
+            if (x != other.x) {
                 return x - other.x;
+            }
 
             return y - other.y;
         }

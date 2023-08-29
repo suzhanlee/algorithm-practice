@@ -11,9 +11,9 @@ public class BJ15649 {
     static int[] arr;
     static int[] visited;
 
-    public static void dfs(int V) {
+    public static void dfs(int L) {
 
-        if (V == M) {
+        if (L == M) {
             for (int i = 1; i <= M; i++) {
                 System.out.print(arr[i] + " ");
             }
@@ -21,11 +21,10 @@ public class BJ15649 {
 
         } else {
             for (int i = 1; i <= N; i++) {
-
                 if (visited[i] == 0) {
                     visited[i] = 1;
-                    arr[V + 1] = i;
-                    dfs(V + 1);
+                    arr[L + 1] = i;
+                    dfs(L + 1);
                     visited[i] = 0;
                 }
             }
